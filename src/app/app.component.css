@@ -1,0 +1,11 @@
+.link-home{
+    text-decoration: none;
+    width: 60px;
+    height: 30px;
+    border: 1px solid maroon;
+    border-radius: 5px;
+    color: maroon;
+    text-align: center;
+    font-weight: bold; 
+    outline: none;
+}

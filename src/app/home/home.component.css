@@ -1,0 +1,15 @@
+.container{
+    padding: 30px;
+    background: #d39999;
+}
+
+.label-content{
+    color: #1b0b0b;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.para{
+    color: #1b0b0b;
+    font-weight: bolder;
+}
