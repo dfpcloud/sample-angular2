@@ -2,10 +2,27 @@
   WELCOME TO HOME
 </h1>
 <br>
+
+
+<div>
+  <form [formGroup]='homeForm' (ngSubmit)="post()">
+      <label>Name : </label>
+      <input type="text" formControlName="name">
+      &emsp;
+      <label>Description : </label>
+      <input type="text" formControlName="description">
+      &emsp;
+      <label>Quantity : </label>
+      <input type="text" formControlName="quantity">
+      &emsp;
+      <button type="submit">Post</button>
+  </form>
+  
+</div>
 <h4>Response from api</h4>
 
 <div class="container">
-  <label class="label-content"> {{ responseJson?.userId }}</label>
-  <p class="para">Description : {{responseJson?.body}}</p>
-  <p class="para">Title : {{responseJson?.title}}</p>
+  <p class="para">Name : {{responseJson?.name}}</p>
+  <p class="para">Description : {{responseJson?.description}}</p>
+  <p class="para">Quantity : {{responseJson?.quantity}}</p>
 </div>
