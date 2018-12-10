@@ -13,3 +13,66 @@
     color: #1b0b0b;
     font-weight: bolder;
 }
+
+
+.mt5 {
+    margin-left: 56px;
+    margin-top: 200px;
+}
+
+.bodytext {
+    color: #ee9c34;
+    font-size: 3em;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+
+.redclr {
+    font-size: 3em;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #db4e18;
+}
+
+.labeltxt {
+    color:#666;
+    font-family: 'Open Sans';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 2%;
+}
+
+.startbtn {
+    width: 135px;
+    color: #fff !important;
+    height: 42px;
+    border-radius: 2px;
+    background-color: #ee9c34;
+    text-align: center;
+  }
+
+  .parachuteeimage {
+    height: 169px;
+}
+
+.parachuteeimage {
+    position: relative;
+    left: 8%;
+    bottom: 122px;
+}
+
+.parachu3image {
+    position: absolute;
+    left: 89%;
+    top: 245px;
+}
+
+.parachu2image {
+    position: absolute;
+    left: 67.5%;
+    top: 441px;
+}
